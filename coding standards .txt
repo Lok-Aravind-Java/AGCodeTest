@@ -1,0 +1,7 @@
+--USER_DETAILS_CACHE should not be final
+--instead of putting userdata as Map we can create pojo object
+--instead of retrieving the resultdata as map can be retrieved in the form of object
+-- http requests are final we cant handle all the request
+--error.jsp -->isErrorPage attribute missing
+--dataSource should be static instead final
+--session.invalidate() in logout.
